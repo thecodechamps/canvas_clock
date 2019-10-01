@@ -85,8 +85,6 @@ Clock.prototype.setTime = function() {
     this.seconds = date.getSeconds() + date.getMilliseconds() / 1000;
 }
 
-let d = new Date();
-
 let clock = new Clock(canvas.height / 4);
 
 function animate() {
